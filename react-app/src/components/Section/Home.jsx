@@ -1,8 +1,12 @@
-// src/components/Section/Home.js
 import React from 'react';
 
-function Home() {
-    return <h1>Bienvenido a la Página Principal</h1>;
+const Home = () => {
+    return (
+        <div>
+            <h1>Bienvenido a la página principal</h1>
+            <p>Este es el contenido de la página de inicio.</p>
+        </div>
+    );
 }
 
 export default Home;

@@ -4,7 +4,7 @@ import '../assets/css/footer.css';
 function Footer() {
     return (
         <footer>
-            <h3>Connect with me:</h3>
+            <h2>Connect with me:</h2>
             <ul className="connect-invisible"> 
                 <li>
                     <a 

@@ -10,7 +10,9 @@ function App() {
         <Router>
             <div className="App">
                 <Header />
-                <Main />
+                <main>
+                    <Main />
+                </main>
                 <Footer />
             </div>
         </Router>
@@ -18,4 +20,3 @@ function App() {
 }
 
 export default App;
-
