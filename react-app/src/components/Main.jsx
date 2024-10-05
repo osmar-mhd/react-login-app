@@ -1,18 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom'; // Only import Route and Routes
 import Login from './Section/Login';
-import Profile from './Section/Profile'
-import Home from './Section/Home'
+import Profile from './Section/Profile';
+import Home from './Section/Home';
 
-function Main() {
+const Main = () => {
     return (
-        <Router>
-            <Routes>
-                <Route path='/login' element={<Login />} />
-                <Route path='/profile' element={<Profile/>} />
-                <Route path='/home' element={<Home/>} />
-            </Routes>
-        </Router>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/profile" element={<Profile />} />
+        </Routes>
     );
 }
 
