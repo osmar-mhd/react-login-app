@@ -3,6 +3,34 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background-image: linear-gradient(to bottom, rgb(21, 14, 25), rgb(45, 24, 3));
-    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgb(21, 14, 25), rgb(3, 23, 45));
+}
+
+h1 {
+    font-size: 2em;
+    color: #ffffff; 
+    letter-spacing: 1px; 
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 600;
+    color: #c7c7c7;
+    margin-bottom: 0.8em;
+    letter-spacing: 1px;
+    text-align: left;
+    border-bottom: 2px solid  #10c5b9;
+    padding-bottom: 0.3em;
+}
+
+h3 {
+    font-size: 0.5em;
+    color: #e0e0e0; 
+    margin-bottom: 0.5em;
+    letter-spacing: 1px;
+    text-align: center;
+    border-left: 4px solid #10c5b9; 
+    padding-left: 0.5em;
 }
